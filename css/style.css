@@ -167,7 +167,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 17rem;
+  gap: 10rem;
+}
+
+.how-full-container > div {
+  flex: 1;
 }
 
 .how-main-container {
@@ -205,13 +209,13 @@
 
 .how-img-container {
   position: relative;
-  margin-right: 17rem;
+  /* margin-right: 17rem; */
 }
 
 .how-img-middle-container {
   position: relative;
-  margin-right: 17px;
-  margin-left: 137px;
+  /* margin-right: 17px;
+  margin-left: 137px; */
 }
 
 .circles-1 {
@@ -247,9 +251,9 @@
 /* MEALS SECTION */
 /**************************/
 
-.meals-heading-p{
-    text-align: center;
-    color: #e67e22;
+.meals-heading-p {
+  text-align: center;
+  color: #e67e22;
 }
 
 .meals-heading-h1 {

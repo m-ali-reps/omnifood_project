@@ -167,14 +167,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10rem;
+  gap: 17rem;
 }
 
 .how-main-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10rem;
+  gap: 27rem;
   margin-top: 3rem;
   flex-direction: row-reverse;
 }
@@ -203,20 +203,40 @@
   line-height: 1.8;
 }
 
-.how-img-container{
+.how-img-container {
   position: relative;
+  margin-right: 17rem;
 }
 
-.circles{
-  position: absolute;
-  top: 37px;
-  right: -47px;
-  border-radius: 147px;
-  opacity: 0.77;
+.how-img-middle-container {
+  position: relative;
+  margin-right: 17px;
+  margin-left: 137px;
+}
+
+.circles-1 {
+  width: 307px;
+  height: 307px;
+  border-radius: 50%;
   background-color: peachpuff;
-  width: 297px;
-  height: 297px;
-  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  opacity: 0.77;
+}
+
+.circles-2 {
+  width: 257px;
+  height: 257px;
+  border-radius: 50%;
+  background-color: peachpuff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
 }
 
 /**************************/
@@ -226,6 +246,15 @@
 /**************************/
 /* MEALS SECTION */
 /**************************/
+
+.meals-heading-p{
+    text-align: center;
+    color: #e67e22;
+}
+
+.meals-heading-h1 {
+  text-align: center;
+}
 
 /**************************/
 /* MEALS SECTION END */

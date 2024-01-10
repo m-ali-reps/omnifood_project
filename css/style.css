@@ -274,14 +274,16 @@
 }
 
 .card {
-  border-radius: 2px;
-  padding-bottom: 7rem;
+  border-radius: 1.5rem;
+  /* padding-bottom: 7rem; not recommended */
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   transform: translateY(0);
+  flex: 1;
+  overflow: hidden;
 }
 
 .card:hover {
-  transform: translateY(1);
+  transform: translateY(1rem);
 }
 
 .material-symbols-outlined {
@@ -299,21 +301,24 @@
 }
 
 .meals-img-container > img {
-  border-radius: 2rem 2rem 0rem 0rem;
+  /* border-radius: 2rem 2rem 0rem 0rem; */
+  width: 100%;
+  height: auto;
 }
 
 .meals-items-container {
-  gap: 7rem;
-  display: flex;
+  /* display: flex;
+  gap: 7rem; */
 }
 
 .diet-section {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  gap: 1.7rem;
+  gap: 1.7rem; */
+  flex: 1;
 }
 
-.diet-btn{
+.diet-btn {
   color: #e67e22;
   text-decoration: none;
   padding-bottom: 2px;
@@ -321,6 +326,9 @@
   font-size: 1.7rem;
 }
 
+.card-text-box {
+  padding: 3.2rem;
+}
 
 /**************************/
 /* MEALS SECTION END */

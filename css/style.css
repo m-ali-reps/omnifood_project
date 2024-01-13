@@ -274,16 +274,16 @@
 }
 
 .card {
-  border-radius: 1.5rem;
-  /* padding-bottom: 7rem; not recommended */
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  transform: translateY(0);
-  flex: 1;
+  transform: translateY(0rem);
+  border-radius: 1.5rem;
+  transition: 777ms;
   overflow: hidden;
+  flex: 1;
 }
 
 .card:hover {
-  transform: translateY(1rem);
+  transform: translateY(-2rem);
 }
 
 .material-symbols-outlined {
@@ -295,39 +295,61 @@
 }
 
 .stats {
-  display: flex;
   flex-direction: column;
+  display: flex;
   gap: 2rem;
 }
 
 .meals-img-container > img {
-  /* border-radius: 2rem 2rem 0rem 0rem; */
   width: 100%;
   height: auto;
 }
 
-.meals-items-container {
-  /* display: flex;
-  gap: 7rem; */
-}
-
-.diet-section {
-  /* display: flex;
+.ul {
   flex-direction: column;
-  gap: 1.7rem; */
+  list-style: none;
+  display: flex;
+  gap: 1.77rem;
   flex: 1;
 }
 
 .diet-btn {
-  color: #e67e22;
   text-decoration: none;
-  padding-bottom: 2px;
-  border: none;
   font-size: 1.7rem;
+  margin-top: 7rem;
+  color: #e67e22;
+  cursor: pointer;
+  border: none;
+}
+
+.recipes-btn {
+  text-align: center;
 }
 
 .card-text-box {
   padding: 3.2rem;
+}
+
+.tag-t1 {
+  background-color: lime;
+  padding: 0.4rem 0.8rem;
+  border-radius: 17px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.tag-t2 {
+  background-color: peachpuff;
+  padding: 0.4rem 0.8rem;
+  border-radius: 17px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.card-name {
+  margin-top: 1.77rem;
 }
 
 /**************************/
@@ -337,6 +359,69 @@
 /**************************/
 /* TESTIMONIALS SECTION */
 /**************************/
+
+.section-testimonials {
+  background-color: #f9f1ec;
+  margin-bottom: 3.7rem;
+  padding-bottom: 7rem;
+}
+
+.testimonial-container {
+  margin-left: 7rem;
+  display: flex;
+}
+
+.testimonial-header {
+  padding-top: 7.7rem;
+}
+
+.testimonial-ul {
+  list-style: none;
+  gap: 1.77rem;
+}
+
+.top-comments {
+  margin-bottom: 7rem;
+  display: flex;
+}
+
+.bottom-comments {
+  display: flex;
+}
+
+.testimonial-text {
+  margin-bottom: 1.7rem;
+  font-size: 1.7rem;
+  line-height: 1.7;
+}
+
+.signature {
+  color: #6f6f6f;
+  font-size: 1.7rem;
+}
+
+.testimonial-imgs {
+  padding: 3rem 7.7rem;
+}
+
+.img-row {
+  margin-bottom: 1.7rem;
+  display: flex;
+}
+
+.testimonial-img{
+  overflow: hidden;
+}
+
+.testimonial-img > img {
+  transition: 777ms;
+  height: 17.7rem;
+}
+
+.testimonial-img > img:hover {
+  transition-duration: 777ms;
+  transform: scale(1.25);
+}
 
 /**************************/
 /* TESTIMONIALS SECTION END */

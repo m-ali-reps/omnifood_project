@@ -363,12 +363,13 @@
 .section-testimonials {
   background-color: #f9f1ec;
   margin-bottom: 3.7rem;
-  padding-bottom: 7rem;
+  padding: 7rem 0rem;
 }
 
 .testimonial-container {
-  margin-left: 7rem;
+  margin: 0rem 7rem;
   display: flex;
+  gap: 10rem;
 }
 
 .testimonial-header {
@@ -401,7 +402,7 @@
 }
 
 .testimonial-imgs {
-  padding: 3rem 7.7rem;
+  /* padding: 3rem 7.7rem; */
 }
 
 .img-row {
@@ -409,7 +410,7 @@
   display: flex;
 }
 
-.testimonial-img{
+.testimonial-img {
   overflow: hidden;
 }
 

@@ -401,10 +401,6 @@
   font-size: 1.7rem;
 }
 
-.testimonial-imgs {
-  /* padding: 3rem 7.7rem; */
-}
-
 .img-row {
   margin-bottom: 1.7rem;
   display: flex;
@@ -429,12 +425,185 @@
 /**************************/
 
 /**************************/
-/* TESTIMONIALS SECTION END */
+/* PRICING SECTION */
+/**************************/
+
+.section-pricing {
+  padding: 9.6rem 0;
+}
+
+.pricing-plan {
+  border-radius: 11px;
+  width: 75%;
+}
+
+.card-container{
+  justify-content: space-evenly;
+}
+
+.pricing-plan-starter {
+  transition: 777ms cubic-bezier(0.6, -0.28, 0.74, 0.05);
+  border: 2px solid #fdf2e9;
+  padding: 4.7rem;
+  width: 39rem;
+}
+
+.pricing-plan-starter:hover{
+  transform: scale(1.1);
+}
+
+.pricing-plan-complete {
+  transition: 777ms cubic-bezier(0.6, -0.28, 0.74, 0.05);
+  background-color: #fdf2e9;
+  position: relative;
+  overflow: hidden;
+  padding: 4.7rem;
+  width: 39rem;
+}
+
+.pricing-plan-complete:hover{
+  transform: scale(1.1);
+}
+
+.pricing-plan-complete::after {
+  background-color: #ffd43b;
+  text-transform: uppercase;
+  transform: rotate(45deg);
+  content: "Best value";
+  padding: 0.7rem 8rem;
+  position: absolute;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #333;
+  right: -17%;
+  top: 7%;
+}
+
+.plan-header {
+  margin-bottom: 4.7rem;
+  text-align: center;
+}
+
+.plan-name {
+  text-transform: uppercase;
+  margin-bottom: 3.2rem;
+  letter-spacing: 0.75;
+  color: #cf711f;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.plan-price {
+  margin-bottom: 1.7rem;
+  font-size: 6.2rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.plan-price span {
+  margin-right: 0.8rem;
+  font-weight: 500;
+  font-size: 3rem;
+}
+
+.plan-text {
+  font-size: 1.7rem;
+  line-height: 1.7;
+  color: #6f6f6f;
+}
+
+.plan-details {
+  text-align: center;
+  font-size: 1.7rem;
+  line-height: 1.7;
+}
+
+.feature-icon {
+  background-color: #fdf2e9;
+  margin-bottom: 3.2rem;
+  border-radius: 50%;
+  color: #e67e22;
+  padding: 1.7rem;
+}
+
+.feature-title {
+  margin-bottom: 1.7rem;
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.feature-text {
+  font-size: 1.7rem;
+  line-height: 1.7;
+}
+
+/**************************/
+/* PRICING SECTION END */
 /**************************/
 
 /**************************/
 /* CTA SECTION */
 /**************************/
+
+.cta {
+  background-color: #e67e22;
+  margin-bottom: 12rem;
+  border-radius: 11px;
+  overflow: hidden;
+  display: flex;
+}
+
+.left-side{
+  padding: 4rem 4rem 4rem 4rem;
+  color: #45260a;
+}
+
+.heading-cta {
+    margin-bottom: 3rem;
+    font-size: 4.4rem;
+    line-height: 1.2;
+    color: black;
+}
+
+.cta-text {
+  margin-bottom: 4.7rem;
+  font-size: 1.7rem;
+  line-height: 1.7;
+}
+
+.cta-list {
+  margin-bottom: 3.7rem;
+  flex-direction: row;
+  list-style: none;
+  display: flex;
+  width: 70rem;
+  gap: 5.7rem;
+}
+
+.form-heading{
+  margin-bottom: 1.2rem;
+  font-size: 1.7rem;
+  font-weight: 500;
+  display: block;
+}
+
+.cell{
+  background-color: #fdf2e9;
+  border-radius: 9px;
+  font-size: 1.7rem;
+  padding: 1.2rem;
+  border: none;
+  width: 31rem;
+}
+
+.btn-cell {
+  border-radius: 9px;
+  text-align: center;
+  font-size: 1.7rem;
+  padding: 1.2rem;
+  width: 31rem;
+}
 
 /**************************/
 /* CTA SECTION END */

@@ -89,6 +89,7 @@ body {
 }
 
 .d-flex {
+  gap: 2.7rem;
   display: flex;
 }
 

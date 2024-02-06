@@ -254,3 +254,12 @@ strong {
 .row-reverse {
   flex-direction: row-reverse;
 }
+
+.ion-icons {
+  font-size: 3rem;
+  transition: all 0.3s;
+}
+
+.ion-icons:hover {
+  color: rgb(23, 23, 23);
+}

@@ -437,7 +437,7 @@
   width: 75%;
 }
 
-.card-container{
+.card-container {
   justify-content: space-evenly;
 }
 
@@ -448,7 +448,7 @@
   width: 39rem;
 }
 
-.pricing-plan-starter:hover{
+.pricing-plan-starter:hover {
   transform: scale(1.1);
 }
 
@@ -461,13 +461,12 @@
   width: 39rem;
 }
 
-.pricing-plan-complete:hover{
+.pricing-plan-complete:hover {
   transform: scale(1.1);
 }
 
 .pricing-plan-complete::after {
   background-color: #ffd43b;
-  text-transform: uppercase;
   transform: rotate(45deg);
   content: "Best value";
   padding: 0.7rem 8rem;
@@ -485,7 +484,6 @@
 }
 
 .plan-name {
-  text-transform: uppercase;
   margin-bottom: 3.2rem;
   letter-spacing: 0.75;
   color: #cf711f;
@@ -554,16 +552,16 @@
   display: flex;
 }
 
-.left-side{
+.left-side {
   padding: 4rem 4rem 4rem 4rem;
   color: #45260a;
 }
 
 .heading-cta {
-    margin-bottom: 3rem;
-    font-size: 4.4rem;
-    line-height: 1.2;
-    color: black;
+  margin-bottom: 3rem;
+  font-size: 4.4rem;
+  line-height: 1.2;
+  color: black;
 }
 
 .cta-text {
@@ -581,14 +579,14 @@
   gap: 5.7rem;
 }
 
-.form-heading{
+.form-heading {
   margin-bottom: 1.2rem;
   font-size: 1.7rem;
   font-weight: 500;
   display: block;
 }
 
-.cell{
+.cell {
   background-color: #fdf2e9;
   border-radius: 9px;
   font-size: 1.7rem;
@@ -612,6 +610,68 @@
 /**************************/
 /* FOOTER */
 /**************************/
+
+.footer {
+  border-top: 1px solid #eee;
+  padding: 12.7rem;
+}
+
+.logo-section {
+  flex-direction: column;
+  display: flex;
+}
+
+.footer-logo {
+  margin-bottom: 3.2rem;
+}
+
+.sl {
+  list-style: none;
+  display: flex;
+  gap: 2.7rem;
+}
+
+.social-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+.cs {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  color: #767676;
+  margin-top: 7rem;
+}
+
+.footer-heading {
+  margin-bottom: 4rem;
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+
+.contacts {
+  font-style: normal;
+  font-size: 1.7rem;
+  line-height: 1.7;
+}
+
+.address {
+  margin-bottom: 2.4rem;
+}
+
+.footer-navigation {
+  flex-direction: column;
+  list-style: none;
+  display: flex;
+  gap: 2.4rem;
+}
+
+.footer-link {
+  text-decoration: none;
+  transition: all 0.3s;
+  font-size: 1.7rem;
+  color: #767676;
+}
 
 /**************************/
 /* FOOTER END */

@@ -676,31 +676,78 @@
 /**************************/
 /* FOOTER END */
 /**************************/
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-  .heading-primary {
-    font-size: 4rem;
-  }
-  .hero-text-box {
-    text-align: center;
-  }
-  .hero-img {
-    width: 60%;
-  }
-  .heading-secondary {
-    margin-bottom: 4.7rem;
-    font-size: 3.7rem;
-  }
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+  /**************************/
+  /* NAVIGATION */
+  /**************************/
+
+  /**************************/
+  /* HEADER */
+  /**************************/
+
+  /**************************/
+  /* HERO SECTION */
+  /**************************/
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+  /**************************/
+  /* NAVIGATION */
+  /**************************/
+
+  /**************************/
+  /* HEADER */
+  /**************************/
+
+  /**************************/
+  /* HERO SECTION */
+  /**************************/
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 944px) {
+  /**************************/
+  /* NAVIGATION */
+  /**************************/
+
+  /**************************/
+  /* HEADER */
+  /**************************/
+
+  /**************************/
+  /* HERO SECTION */
+  /**************************/
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  /**************************/
+  /* NAVIGATION */
+  /**************************/
+
+  /**************************/
+  /* HEADER */
+  /**************************/
+
+  /**************************/
+  /* HERO SECTION */
+  /**************************/
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
+@media only screen and (max-width: 600px) {
+  /**************************/
+  /* NAVIGATION */
+  /**************************/
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
+  /**************************/
+  /* HEADER */
+  /**************************/
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
+  /**************************/
+  /* HERO SECTION */
+  /**************************/
+}

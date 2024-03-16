@@ -445,7 +445,8 @@
   transition: 777ms cubic-bezier(0.6, -0.28, 0.74, 0.05);
   border: 2px solid #fdf2e9;
   padding: 4.7rem;
-  width: 39rem;
+  height: auto;
+  width: 100%;
 }
 
 .pricing-plan-starter:hover {
@@ -458,7 +459,8 @@
   position: relative;
   overflow: hidden;
   padding: 4.7rem;
-  width: 39rem;
+  height: auto;
+  width: 100%;
 }
 
 .pricing-plan-complete:hover {
@@ -573,6 +575,8 @@
   margin-bottom: 4.7rem;
   font-size: 1.7rem;
   line-height: 1.7;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .cta-list {
@@ -840,6 +844,30 @@
   .features {
     margin-bottom: 7rem;
   }
+
+  .card-container {
+    display: block;
+  }
+
+ .pricing-plan-starter {
+    margin-bottom: 7rem;
+ }
+
+ .pricing-plan-complete::after{
+    right: -9%;
+    top: 7%;
+ }
+
+ .cta-list {
+  display: block;
+  height: auto;
+  width: 100%;
+ }
+
+ .cta-list > li {
+  margin-bottom: 2rem;
+ }
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -856,4 +884,23 @@
     margin-top: 7rem;
     margin-bottom: 7rem;
   }
+
+  .features {
+    display: block;
+  }
+
+  .feature {
+    margin-bottom: 7rem;
+  }
+
+  .cta {
+    flex-direction: column-reverse;
+  }
+
+  .btn-cell,
+  .cell {
+    height: auto;
+    width: 100%;
+  }
+
 }

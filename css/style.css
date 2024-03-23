@@ -260,6 +260,8 @@
 }
 
 .meals-cards {
+  justify-content: center;
+  flex-wrap: wrap;
   display: flex;
   gap: 7rem;
 }
@@ -279,7 +281,9 @@
   border-radius: 1.5rem;
   transition: 777ms;
   overflow: hidden;
-  flex: 1;
+  flex-basis: 30rem;
+  /* flex-grow: 3;
+  flex: 1; */
 }
 
 .card:hover {
@@ -310,7 +314,9 @@
   list-style: none;
   display: flex;
   gap: 1.77rem;
-  flex: 1;
+  flex-basis: 30rem;
+  /* flex-grow: 3;
+  flex: 1; */
 }
 
 .diet-btn {

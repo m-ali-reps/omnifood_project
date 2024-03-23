@@ -566,8 +566,9 @@
 }
 
 .left-side {
-  padding: 4rem;
   color: #45260a;
+  flex-basis: 70%;
+  padding: 4rem;
 }
 
 .heading-cta {
@@ -631,6 +632,10 @@
 }
 
 .cta-image {
+  background-image: url(../img/eating.jpg);
+  background-size: cover;
+  flex-basis: 30%;
+  opacity: 0.75;
 }
 
 /**************************/
@@ -740,10 +745,6 @@
   .testimonial-container {
     flex-direction: column;
   }
-
-  .cta > div {
-    flex: 1;
-  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -828,6 +829,33 @@
   .cell {
     width: 26rem;
   }
+
+  .left-side {
+    padding: 5rem;
+  }
+
+  .cta-list {
+    display: block;
+  }
+
+  .cta-list > li > .cell {
+    margin-bottom: 3rem;
+    width: 100%;
+  }
+  
+  .cta-list:first-child {
+    margin: 0;
+  }
+
+  .left-side {
+    flex-basis: 65%;
+  }
+
+  .cta-image {
+    background-position: top;
+    flex-basis: 35%;
+  }
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -878,6 +906,16 @@
   .cta-list > li {
     margin-bottom: 2rem;
   }
+  
+  .cta {
+    flex-direction: column-reverse;
+  }
+
+  .btn-cell,
+  .cell {
+    height: auto;
+    width: 100%;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -901,15 +939,5 @@
 
   .feature {
     margin-bottom: 7rem;
-  }
-
-  .cta {
-    flex-direction: column-reverse;
-  }
-
-  .btn-cell,
-  .cell {
-    height: auto;
-    width: 100%;
   }
 }

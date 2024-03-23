@@ -581,17 +581,19 @@
   margin-bottom: 4.7rem;
   font-size: 1.7rem;
   line-height: 1.7;
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .cta-list {
   /* margin-bottom: 3.7rem; */
-  flex-direction: row;
-  list-style: none;
   display: flex;
-  width: 70rem;
+  flex-direction: row;
   gap: 5.7rem;
+  list-style: none;
+  /* width: 70rem; */
+}
+
+.cta-list > li {
+  width: 100%;
 }
 
 .cta-list:first-child {
@@ -611,7 +613,7 @@
   font-size: 1.7rem;
   padding: 1.2rem;
   border: none;
-  width: 31rem;
+  width: 100%;
 }
 
 .btn-cell {
@@ -626,6 +628,9 @@
   width: 100%;
   height: auto;
   opacity: 0.7;
+}
+
+.cta-image {
 }
 
 /**************************/
@@ -855,25 +860,24 @@
     display: block;
   }
 
- .pricing-plan-starter {
+  .pricing-plan-starter {
     margin-bottom: 7rem;
- }
+  }
 
- .pricing-plan-complete::after{
+  .pricing-plan-complete::after {
     right: -9%;
     top: 7%;
- }
+  }
 
- .cta-list {
-  display: block;
-  height: auto;
-  width: 100%;
- }
+  .cta-list {
+    display: block;
+    height: auto;
+    width: 100%;
+  }
 
- .cta-list > li {
-  margin-bottom: 2rem;
- }
-
+  .cta-list > li {
+    margin-bottom: 2rem;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -908,5 +912,4 @@
     height: auto;
     width: 100%;
   }
-
 }
